@@ -1,5 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import { Container, Content, Header, Left, Body, Icon } from 'native-base';
+import { createDrawerNavigator, DrawerItems } from 'react-navigation';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import Navbar from './components/Navbar';
 
